@@ -8,6 +8,8 @@ base:
         - match: nodegroup
         - users
         - fstab
+        - resolv
+        - pacman
         - mpi_packages
     'cuda':
         - match: nodegroup
