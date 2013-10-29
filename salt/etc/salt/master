@@ -6,4 +6,5 @@ pillar_roots:
   base:
     - /srv/pillar
 nodegroups:
+   minion: 'E@node\d{2}'
    cuda: 'E@node\d{2}'
